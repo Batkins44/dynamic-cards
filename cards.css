@@ -1,0 +1,65 @@
+body{
+    background-color:lightcyan;
+}
+h1{
+    text-align:center;
+    font-family: 'Lora', serif;
+}
+
+#text-box{
+    display:block;
+    width:90%;
+    margin: 0 auto;
+    font-size:24px;
+    font-family: 'Lora', serif;
+}
+
+#create{
+    width:40%;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:30px;
+    height:70px;
+    display:block;
+
+    font-family: 'Lora', serif;
+}
+
+#cardArea{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.card{
+
+    height:400px;
+    width:24%;
+    margin:60px;
+    display:inline-block;
+    border:2px solid black;
+    position:relative;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size:24px;
+}
+
+button{
+
+
+}
+
+.card > button{
+    margin-top:375px;
+    text-align:center;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    border-radius:30px;
+    background-color:red;
+    color:white;
+    font-size:24px;
+    font-family: 'Lora', serif;
+    /* width:40%; */
+    /* margin: 0 auto; */
+}
